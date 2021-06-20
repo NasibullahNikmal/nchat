@@ -9,6 +9,11 @@
     outline: 1px solid gray;
     padding: 10px;
 }
+@media screen and (max-width: 480px){
+    .main{
+        width: 80%;
+    }
+}
 h1{
     color: rgb(31, 31, 31);
     padding: 10px;
