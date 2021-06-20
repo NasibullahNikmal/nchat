@@ -1,0 +1,23 @@
+*{
+    padding: 0;
+    margin: 0;
+    font-family: calibri;
+}
+.main{
+    margin: 10% auto;
+    width: 50%;
+    outline: 1px solid gray;
+    padding: 10px;
+}
+h1{
+    color: rgb(31, 31, 31);
+    padding: 10px;
+    font-size: 50px;
+    text-align: center;
+    background-color: rgb(2, 196, 196);
+}
+p{
+    margin: 10px;
+    font-size: 30px;
+    text-align: center;
+}
