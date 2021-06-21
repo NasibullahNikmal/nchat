@@ -2,12 +2,18 @@
     padding: 0;
     margin: 0;
     font-family: calibri;
+    box-sizing: border-box;
 }
 .main{
-    margin: 10% auto;
-    width: 50%;
-    outline: 1px solid gray;
+    margin: 10px auto 0px;
+    width: 55%;
+    border: 1px solid gray;
     padding: 10px;
+    border-radius: 5px;
+}
+.main:nth-child(2){
+    border: 0;
+    padding: 0;
 }
 h1{
     color: rgb(31, 31, 31);
@@ -21,7 +27,40 @@ p{
     font-size: 30px;
     text-align: center;
 }
-@media screen and (max-width: 480px){
+
+input{
+    width: 100%;
+    padding: 5px;
+    margin: 5px 0px;
+}
+input:nth-child(3){
+    height: 60px;
+}
+.main:nth-child(3){
+    padding: 0;
+    margin-top: 30px;
+    border: 0;
+}
+#outName{
+    background-color: rgb(3, 116, 116);
+    color: rgb(231, 231, 231);
+    padding: 0 9px;
+    font-size: 19px;
+    font-weight: bold;
+}
+.main > hr{
+    border-color: rgb(3, 116, 116);
+    margin: 15px 0px;
+    visibility: hidden;
+}
+#outMessage{
+    margin: 5px;
+}
+.outputWindow{
+    margin: 5px;
+    border: 1px solid gray;
+}
+@media screen and (max-width: 700px){
     .main{
         width: 85%;
         padding: 8px;
